@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "dotplaceholders",
   "version": "${version}",
-  "name": "ExampleMod",
-  "description": "Template for Cobblemon addon development",
+  "name": "DotPlaceholders",
+  "description": "Special placeholders for ease of use for custom fonts etc",
   "authors": [
     "Reyn"
   ],
@@ -14,16 +14,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.examplemod.ExampleMod"
+      "dot.reyn.dotplaceholders.DotPlaceholders"
     ]
   },
-  "mixins": [
-    "examplemod.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.14.10",
     "fabric": "*",
-    "minecraft": "1.19.2",
-    "cobblemon": ">=1.2.0+1.19.2"
+    "minecraft": "1.19.2"
   }
 }

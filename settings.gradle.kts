@@ -1,4 +1,4 @@
-rootProject.name = "CobblemonTemplate"
+rootProject.name = "DotPlaceholders"
 pluginManagement {
     repositories {
         maven("https://maven.fabricmc.net/") {
